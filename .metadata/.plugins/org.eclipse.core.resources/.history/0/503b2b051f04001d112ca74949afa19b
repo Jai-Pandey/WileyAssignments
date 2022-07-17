@@ -1,0 +1,23 @@
+package com.jai.hash;
+
+public class Hashing {
+		
+	private LinkedList[] map=new LinkedList[10];
+
+	public LinkedList[] getMap() {
+		return map;
+	}
+
+	public void setMap(LinkedList[] map) {
+		this.map = map;
+	}
+	
+	public void insert(int element) {
+		
+	}
+	
+	public int search(int element) {
+		
+	}
+	
+}

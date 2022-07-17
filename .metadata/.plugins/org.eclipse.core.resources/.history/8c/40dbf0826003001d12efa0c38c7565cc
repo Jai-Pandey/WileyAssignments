@@ -1,0 +1,22 @@
+package com.jai.stack;
+
+public class StackMain {
+
+	public static void main(String[] args) {
+		
+		Stack<Integer> stack = new Stack<>();
+		stack.push(10);
+		System.out.println("Current stack is of length "+stack.size);
+		stack.push(12);
+		System.out.println("Current stack is of length "+stack.size);
+		System.out.println(stack.pop());
+		System.out.println("Current stack is of length "+stack.size);
+		System.out.println(stack.pop());
+		System.out.println("Current stack is of length "+stack.size);
+		stack.pop();
+		stack.push(30);
+		System.out.println("Current stack is of length "+stack.size);
+		stack.display();
+	}
+
+}

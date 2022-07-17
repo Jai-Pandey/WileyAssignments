@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.jai.BST.BSTPresentation.java&apos; to &apos;BinarySearchTreePresentation.java&apos;&#x0D;&#x0A;- Original project: &apos;MIN and MAX in BST&apos;&#x0D;&#x0A;- Original element: &apos;com.jai.BST.BSTPresentation.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.jai.BST.BinarySearchTreePresentation.java&apos;" description="Rename compilation unit &apos;BSTPresentation.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.jai.BST{BSTPresentation.java" name="BinarySearchTreePresentation.java" references="false" stamp="1657867362657" version="1.0"/>
+</session>

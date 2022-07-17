@@ -1,0 +1,51 @@
+package com.jai.BST;
+
+public class MinMaxInBST {
+		
+		class Node {
+		    public int data;
+		    public Node left;
+		    public Node right;
+		 
+		    public Node(int num) {
+		        this.data = num;
+		        this.left = null;
+		        this.right = null;
+		    }
+		 
+		    public Node() {
+		        this.left = null;
+		        this.right = null;
+		    }
+		     
+		    public Node createNode(int number) {
+		        return new Node(number);
+		    }
+		}
+		
+	    public int min(Node root) {
+	        if(null == root) {
+	            System.out.println("Tree is empty");
+	            return -1;
+	        }
+	        //we found the min value
+	        if(root.left == null) {
+	            return root.data;
+	        }
+	        return min(root.left);
+	    }
+	     
+	    public int max(Node root) {
+	        if(null == root) {
+	            System.out.println("Tree is empty");
+	            return -1;
+	        }
+	        //we found the max value
+	        if(root.right == null) {
+	            return root.data;
+	        }
+	        return max(root.right);
+	    }
+	}
+
+

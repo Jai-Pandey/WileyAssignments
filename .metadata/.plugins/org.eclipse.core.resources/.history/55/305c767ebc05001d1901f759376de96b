@@ -1,0 +1,25 @@
+package com.jai.hash;
+
+public class LinkedLsit {
+		
+static class Node {
+		
+		int data;
+		Node next;
+		
+		Node(int data) {
+			this.data = data;
+			this.next = null;
+		}		
+	}
+	
+	Node head;
+	
+	public void insert(Node head, int element) {
+		
+	}
+	
+	public void resolve(Node head) {
+		
+	}
+}

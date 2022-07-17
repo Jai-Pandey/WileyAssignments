@@ -1,0 +1,31 @@
+package com.jai.queue;
+
+import java.util.Scanner;
+
+public class QueueMain {
+
+	public static void main(String[] args) {
+Scanner scanner=new Scanner(System.in);
+		
+		Queue<Integer> q=new Queue<Integer>();
+		int ch=1;
+		while(ch!=0) {
+			System.out.println("Enter element : ");
+			q.enqueue(scanner.nextInt());
+			System.out.println("Do you want to add more elements press 0 for no and 1 for yes: ");
+			ch=scanner.nextInt();
+		}
+		
+		System.out.println("Enter element : ");
+		q.dequeue();
+		
+		
+		  System.out.println("Queue Front : " + q.front.data);
+	        System.out.println("Queue Rear : " + q.rear.data);
+		
+
+	}
+
+	}
+
+
